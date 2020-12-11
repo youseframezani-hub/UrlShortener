@@ -5,11 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\UrlShortener.DataLayer\UrlShortener.DataLayer.csproj" />
     <ProjectReference Include="..\UrlShortener.Domain\UrlShortener.Domain.csproj" />
   </ItemGroup>
